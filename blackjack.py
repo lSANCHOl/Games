@@ -5,14 +5,7 @@ facevalue = [11, 10, 10, 10, 10 ,9, 8, 7, 6, 5, 4, 3, 2]
 number = ["Ace", "King", "Queen", "Jack", 10, 9, 8, 7, 6, 5, 4, 3, 2]
 suits = ["Spades", "Clubs", "Diamonds", "Hearts"]
 
-
-
-
-
-
 money = 100
-
-
 
 def playercard(number,suits):			
 	global money
@@ -57,9 +50,6 @@ def playercard(number,suits):
 	#if split == "no":
 	#	0
 		
-
-
-
 
 
 	while total < 21:
@@ -173,40 +163,6 @@ def splithand():
 	print(hand1)
 	print(hand2)
 	
-	
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 	
 
 playercard(number,suits)
